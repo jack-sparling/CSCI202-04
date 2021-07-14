@@ -1,10 +1,12 @@
 body{
-    background-color: coral;
+    background-color: coral; 
 }
 
 h1{
     text-align: center;
     text-decoration: underline;
+    border: 5px solid black;
+    background-color: #fff;
 }
 
 h2{
@@ -20,7 +22,7 @@ h2{
 
 #leftImg img{
     padding: 20px;
-    padding-left: 40px;
+    padding-left: 60px;
 }
 
 #rightImg{
@@ -31,7 +33,7 @@ h2{
 
 #rightImg img{
     padding: 20px;
-    padding-left: 40px;
+    padding-left: 60px;
 }
 
 .clearfix{
@@ -39,5 +41,12 @@ h2{
 }
 
 #inputDiv{
+    padding-top: 20px;
     text-align: center;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    padding-top: 60px;
 }
