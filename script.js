@@ -1,5 +1,5 @@
 
-function bind(){
+function bind(){ 
     alert("Really! Try clicking on anything! Especially between the pictures!");
 }
 
@@ -53,4 +53,8 @@ function getValue() {
     else{
         alert("That isn't a number!");
     }
+  }
+
+  function name() {
+      alert("The name of the creator");
   }
